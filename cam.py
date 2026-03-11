@@ -4,7 +4,7 @@ from ultralytics import YOLO
 # load YOLO model
 model = YOLO("yolov8n.pt")
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 def get_head_counts():
 
